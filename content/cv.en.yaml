@@ -1,0 +1,99 @@
+blocks:
+  - header
+  - experience
+  - technical_skills
+  - soft_skills
+  - education
+  - languages
+
+layout:
+  columns: 2
+  left:
+    - experience
+  right:
+    - technical_skills
+    - soft_skills
+    - education
+    - languages
+
+labels:
+  workExperience: "WORK EXPERIENCE"
+  technicalSkills: "TECHNICAL SKILLS"
+  softSkills: "SOFT SKILLS"
+  education: "EDUCATION"
+  languages: "LANGUAGES"
+  responsibilities: "Responsibilities"
+  achievements: "Achievements/Tasks"
+
+personal:
+  name: "Maximilian Gruber"
+  title: "Software Engineer"
+  photo: "./profile-pic.jpg"
+  summary: "Dynamic Full Stack developer with 4+ years under my belt and skilled in DevOps and Cloud computing. Looking for an ambitious home for my expertise and a team that dreams big."
+  contact:
+    email: "maxjgruber@gmail.com"
+    phone: "+33 (0) 6 98 20 29 59"
+    location: "France"
+    linkedin: "https://www.linkedin.com/in/maximilian-j-gruber/"
+
+experience:
+  - role: "Full Stack Developer"
+    company: "Spotl"
+    dates: "06/2024 - Present"
+    location: "Paris, France (Remote)"
+    description: "Company providing AI-powered video subtitling and translation services with professional post-editing for rapid, multilingual content creation."
+    type: "achievements"
+    items:
+      - "Upgraded/migrated legacy code to modern frameworks using creative refactoring solutions."
+      - "Analysis and implementation of cost-cutting measures on Google Cloud without compromising performance."
+      - "Provided specialized expertise to recommend system enhancements, optimize performance, and enhance overall user experience."
+
+  - role: "Full Stack Developer"
+    company: "United Nation's Sustainable Development Solutions Network"
+    dates: "08/2021 - 06/2024"
+    location: "Paris, France"
+    description: "Organization mobilized to develop practical solutions for achieving the Sustainable Development Goals and Paris Agreement."
+    type: "achievements"
+    items:
+      - "Developed and maintained high-performing applications and interactive platforms for various one-off projects, including websites and data visualizations."
+      - "Collaborated with Data Scientists to create and update data visualizations and dashboards from datasets, ensuring seamless online accessibility and automatic updates."
+      - "Trained and led junior/entry-level peers towards complete autonomy (on-boarding, code reviews, pair-programming, mentorship)."
+
+technical_skills:
+  - category: "Programming Languages & Engines"
+    items: "JS(ES2025) | Python | Node | Bash | HCL"
+  - category: "Frameworks"
+    items: "Django | Next.js | React"
+  - category: "Test Frameworks"
+    items: "Jest | PyTest | Cypress | Playwright"
+  - category: "Databases"
+    items: "PostgresSQL | Mongo DB | Redis"
+  - category: "DevOps & Cloud"
+    items: "Kubernetes | Docker | CI/CD pipelines | Terraform | Linux | Grafana | Prometheus | Ansible | RabbitMQ | AWS | Google Cloud"
+  - category: "AI API & Tools"
+    items: "Claude | Gemini | GitHub | Figma | Netlify | Command Line Interface"
+
+soft_skills:
+  - "Problem Solving"
+  - "Resourcefulness"
+  - "Work Ethic"
+  - "Leadership"
+  - "Organization"
+  - "Determination"
+  - "Pragmatism"
+
+education:
+  - title: "Ironhack - DevOps & Cloud Computing Bootcamp (400+ hours)"
+    description: "Intensive program covering architectural best practices for building scalable, fault-tolerant distributed systems using AWS and Azure."
+    dates: "09/2025 - 03/2026"
+  - title: "Ironhack - Full Stack Web Development Bootcamp (400+ hours)"
+    description: "Intensive program teaching students to build complete web applications using the MERN stack."
+    dates: "09/2025 - 03/2026"
+
+languages:
+  - name: "English"
+    level: 5
+  - name: "French"
+    level: 5
+  - name: "German"
+    level: 5

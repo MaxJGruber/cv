@@ -1,0 +1,22 @@
+:root {
+  --cv-accent: #0077b6;
+  --cv-accent-light: #e0f2f1;
+  --cv-text: #333333;
+  --cv-text-light: #333333;
+  --cv-bg: #ffffff;
+  --cv-border: #e0e0e0;
+  --cv-font:
+    "Montserrat", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --cv-font-size-base: 9pt;
+  --cv-font-size-name: 28pt;
+  --cv-font-size-title: 14pt;
+  --cv-font-size-section: 13pt;
+  --cv-font-size-role: 11pt;
+  --cv-font-size-small: 8pt;
+  --cv-page-width: 210mm;
+  --cv-page-height: 297mm;
+  --cv-page-padding: 15mm;
+  --cv-column-gap: 8mm;
+  --cv-left-column: 60%;
+  --cv-right-column: 40%;
+}
