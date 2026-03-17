@@ -28,7 +28,7 @@ labels:
 personal:
   name: "Maximilian Gruber"
   title: "Software Engineer"
-  photo: "./profile-pic.jpg"
+  photo: "cv/profile-pic.jpg"
   summary: "Dynamic Full Stack developer with 4+ years under my belt and skilled in DevOps and Cloud computing. Looking for an ambitious home for my expertise and a team that dreams big."
   contact:
     email: "maxjgruber@gmail.com"
