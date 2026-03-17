@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --cv-accent: #0891b2;
+  --cv-accent-light: #e0f7fa;
+  --cv-text: #111111;
+  --cv-text-light: #666666;
+  --cv-bg: #ffffff;
+  --cv-border: #e2e2e2;
+  --cv-font: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+  --cv-font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --cv-font-size-base: 9.5pt;
+  --cv-font-size-name: 30pt;
+  --cv-font-size-title: 10pt;
+  --cv-font-size-section: 8pt;
+  --cv-font-size-role: 10.5pt;
+  --cv-font-size-small: 7.5pt;
+  --cv-page-width: 210mm;
+  --cv-page-height: 297mm;
+  --cv-page-padding: 10mm;
+  --cv-column-gap: 8mm;
+  --cv-left-column: 60%;
+  --cv-right-column: 40%;
+}
+
+/* ── NAME ── */
+.header-name h1 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+}
+
+/* ── TITLE ── */
+.header-title {
+  font-family: var(--cv-font-mono);
+  font-size: var(--cv-font-size-title);
+  font-style: normal !important;
+  font-weight: 400;
+  color: var(--cv-accent);
+  letter-spacing: 0.02em;
+  margin-top: 2mm;
+}
+
+/* ── CONTACT ── */
+.contact-item {
+  font-family: var(--cv-font-mono);
+  font-size: 7pt;
+  color: var(--cv-text-light);
+  letter-spacing: 0;
+}
+
+/* ── SUMMARY ── */
+.header-summary {
+  font-style: normal !important;
+  font-weight: 300;
+  color: #444;
+  border-left: 2px solid var(--cv-accent);
+  padding-left: 3mm;
+  margin-top: 3mm;
+}
+
+/* ── SECTION TITLES ── */
+.section-title {
+  font-family: var(--cv-font-mono);
+  font-size: var(--cv-font-size-section) !important;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cv-accent);
+  border-bottom: 1px solid var(--cv-border);
+  padding-bottom: 1.5mm;
+  margin-bottom: 3mm;
+}
+
+/* ── JOB ROLE ── */
+.job-role {
+  font-weight: 600;
+  font-size: var(--cv-font-size-role);
+  letter-spacing: -0.2px;
+}
+
+/* ── JOB COMPANY ── */
+.job-company {
+  font-weight: 300;
+  color: var(--cv-text-light);
+}
+
+/* ── JOB DATES ── */
+.job-dates {
+  font-family: var(--cv-font-mono);
+  font-size: 7pt;
+  font-style: normal !important;
+  color: var(--cv-accent);
+  letter-spacing: 0.02em;
+}
+
+/* current job accent */
+.job:first-child .job-dates {
+  color: var(--cv-accent);
+}
+
+/* ── JOB LOCATION ── */
+.job-location {
+  font-family: var(--cv-font-mono);
+  font-size: 7pt;
+  color: var(--cv-text-light);
+}
+
+/* ── JOB DESCRIPTION ── */
+.job-description {
+  font-style: normal !important;
+  font-weight: 300;
+  font-size: 8.5pt;
+  color: #888;
+  margin-bottom: 1mm;
+}
+
+/* ── JOB TYPE LABEL ── */
+.job-type-label {
+  display: none;
+}
+
+/* ── BULLETS ── */
+.job-items li {
+  display: flex;
+  align-items: flex-start;
+  gap: 2mm;
+  padding-left: 0;
+  font-weight: 300;
+}
+
+.job-items li::before {
+  content: "→";
+  font-family: var(--cv-font-mono);
+  font-size: 8pt;
+  color: var(--cv-accent);
+  flex-shrink: 0;
+  margin-top: 0.05em;
+  position: static;
+}
+
+/* ── TIMELINE DOT ── */
+.job-timeline-dot {
+  border-color: var(--cv-accent);
+  background: white;
+}
+
+.job:first-child .job-timeline-dot {
+  background: var(--cv-accent);
+}
+
+/* ── TECH SKILL CATEGORIES ── */
+.tech-skill-category {
+  font-family: var(--cv-font-mono);
+  font-size: 7pt;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--cv-text);
+  margin-bottom: 0.5mm;
+}
+
+.tech-skill-items {
+  font-weight: 300;
+  color: var(--cv-text-light);
+  font-size: 8.5pt;
+}
+
+/* ── SOFT SKILLS ── */
+.soft-skill-badge {
+  font-family: var(--cv-font-mono);
+  font-size: 7pt;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  border-color: var(--cv-border);
+  color: var(--cv-text);
+  border-radius: 0;
+  padding: 0.8mm 2mm;
+}
+
+/* ── EDUCATION ── */
+.education-title {
+  font-weight: 500;
+  font-size: 8.5pt;
+}
+
+.education-dates {
+  font-family: var(--cv-font-mono);
+  font-size: 7pt;
+  font-style: normal !important;
+  color: var(--cv-text-light);
+}
+
+/* ── LANGUAGES ── */
+.language-name {
+  font-weight: 400;
+  font-size: 8.5pt;
+}
+
+.language-dot {
+  border-color: var(--cv-border);
+  width: 6px;
+  height: 6px;
+  border-radius: 0;
+}
+
+.language-dot.filled {
+  background: var(--cv-accent);
+  border-color: var(--cv-accent);
+}

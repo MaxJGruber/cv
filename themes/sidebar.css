@@ -1,0 +1,68 @@
+:root {
+  --cv-accent: #2b7a78;
+  --cv-accent-light: #e0f2f1;
+  --cv-text: #333333;
+  --cv-text-light: #666666;
+  --cv-bg: #ffffff;
+  --cv-border: #e0e0e0;
+  --cv-font: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --cv-font-size-base: 9pt;
+  --cv-font-size-name: 28pt;
+  --cv-font-size-title: 14pt;
+  --cv-font-size-section: 13pt;
+  --cv-font-size-role: 11pt;
+  --cv-font-size-small: 8pt;
+  --cv-page-width: 210mm;
+  --cv-page-height: 297mm;
+  --cv-page-padding: 15mm;
+  --cv-column-gap: 0mm;
+  --cv-left-column: 30%;
+  --cv-right-column: 70%;
+}
+
+.cv-left {
+  background: var(--cv-accent);
+  color: white;
+  padding: 4mm;
+  border-radius: 2mm;
+}
+
+.cv-left .section-title {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+.cv-left .tech-skill-category,
+.cv-left .language-name {
+  color: white;
+}
+
+.cv-left .tech-skill-items,
+.cv-left .education-description {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.cv-left .soft-skill-badge {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: white;
+}
+
+.cv-left .language-dot {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.cv-left .language-dot.filled {
+  background: white;
+}
+
+.cv-left .education-dot {
+  border-color: white;
+}
+
+.cv-left .education-dates {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.cv-right {
+  padding-left: 4mm;
+}

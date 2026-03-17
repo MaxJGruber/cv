@@ -1,0 +1,21 @@
+:root {
+  --cv-accent: #1a1a1a;
+  --cv-accent-light: #f5f5f5;
+  --cv-text: #1a1a1a;
+  --cv-text-light: #555555;
+  --cv-bg: #ffffff;
+  --cv-border: #cccccc;
+  --cv-font: 'Georgia', 'Times New Roman', serif;
+  --cv-font-size-base: 9pt;
+  --cv-font-size-name: 26pt;
+  --cv-font-size-title: 13pt;
+  --cv-font-size-section: 12pt;
+  --cv-font-size-role: 10pt;
+  --cv-font-size-small: 8pt;
+  --cv-page-width: 210mm;
+  --cv-page-height: 297mm;
+  --cv-page-padding: 15mm;
+  --cv-column-gap: 8mm;
+  --cv-left-column: 58%;
+  --cv-right-column: 42%;
+}

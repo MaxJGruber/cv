@@ -1,0 +1,9 @@
+layout:
+  columns: 2
+  left:
+    - technical_skills
+    - soft_skills
+    - languages
+  right:
+    - experience
+    - education
