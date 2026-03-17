@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "cv-pdf-gen": "^0.1.2"
+    "cv-pdf-gen": "^0.1.3"
   },
   "scripts": {
     "dev": "vite",
