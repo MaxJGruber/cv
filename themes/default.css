@@ -20,3 +20,115 @@
   --cv-left-column: 60%;
   --cv-right-column: 40%;
 }
+
+/* ── SECTIONS ── */
+.cv-left section,
+.cv-right section {
+  margin-bottom: 7mm;
+}
+
+/* ── JOB ── */
+.job {
+  margin-bottom: 6mm !important;
+  padding-left: 0;
+}
+
+.job-timeline-dot {
+  display: none;
+}
+
+.job-content {
+  width: 100%;
+}
+
+/* ── JOB HEADER ── */
+.job-header {
+  margin-bottom: 0.5mm;
+}
+
+.job-role {
+  font-weight: 700;
+  font-size: var(--cv-font-size-role);
+  color: var(--cv-text);
+  display: block;
+  line-height: 1.3;
+}
+
+.job-company {
+  font-weight: 700;
+  font-size: 8.5pt;
+  color: var(--cv-accent);
+  display: block;
+  line-height: 1.3;
+}
+
+/* ── JOB META ── */
+.job-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1mm;
+}
+
+.job-dates {
+  font-style: normal !important;
+  font-size: 7.5pt;
+  font-weight: 400;
+  color: var(--cv-text-light);
+}
+
+.job-location {
+  font-size: 7.5pt;
+  font-weight: 400;
+  color: var(--cv-text-light);
+  text-align: right;
+}
+
+/* ── JOB DESCRIPTION ── */
+.job-description {
+  font-style: italic !important;
+  font-weight: 300;
+  font-size: 7.5pt;
+  color: var(--cv-text-light);
+  margin-bottom: 1.5mm;
+  line-height: 1.4;
+}
+
+/* ── JOB TYPE LABEL ── */
+.job-type-label {
+  display: none;
+}
+
+/* ── TECH SKILLS ── */
+.tech-skill {
+  margin-bottom: 3.5mm;
+}
+
+/* ── BULLETS ── */
+.job-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.job-items li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5mm;
+  padding-left: 0;
+  font-weight: 400;
+  font-size: 8pt;
+  line-height: 1.45;
+  margin-bottom: 1.5mm;
+  color: var(--cv-text);
+}
+
+.job-items li::before {
+  content: "▶";
+  font-size: 5pt;
+  color: var(--cv-accent);
+  flex-shrink: 0;
+  position: static;
+  line-height: 1.9;
+  margin-top: 0;
+}
