@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { discoverContent, discoverThemes, discoverPlugins, discoverCustoms, discoverCustomCss, VariantTabs } from "cv-pdf-gen";
+import "./tailwind.css"; 
 import "cv-pdf-gen/styles";
 
 const contentModules = import.meta.glob("/content/*.yaml", {
