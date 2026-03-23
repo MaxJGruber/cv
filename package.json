@@ -1,9 +1,15 @@
 {
   "dependencies": {
-    "cv-pdf-gen": "^0.2.0"
+    "cv-pdf-gen": "^0.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "scripts": {
     "dev": "vite",
     "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3"
   }
 }
