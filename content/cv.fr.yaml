@@ -1,0 +1,101 @@
+blocks:
+  - header
+  - experience
+  - education
+  - technical_skills
+  - soft_skills
+  - languages
+
+layout:
+  columns: 2
+  left:
+    - experience
+    - languages
+  right:
+    - education
+    - technical_skills
+    - soft_skills
+
+labels:
+  workExperience: "EXPÉRIENCE PROFESSIONNELLE"
+  technicalSkills: "COMPÉTENCES TECHNIQUES"
+  softSkills: "COMPÉTENCES DOUCES"
+  education: "FORMATION"
+  languages: "LANGUES"
+  responsibilities: "Responsabilités"
+  achievements: "Réalisations / Missions"
+
+personal:
+  name: "Maximilian Gruber"
+  title: "Ingénieur Full Stack & DevOps"
+  photo: "cv/profile-pic.jpg"
+  summary: "Développeur Full Stack dynamique avec plus de 4 ans d'expérience, spécialisé en DevOps et cloud computing. Je m'épanouis dans des environnements qui valorisent le pragmatisme, l'exigence technique et la vision à long terme. À la recherche d'une équipe qui voit grand et construit avec soin."
+  contact:
+    email: "maxjgruber@gmail.com"
+    phone: "+33 (0) 6 98 20 29 59"
+    location: "France"
+    linkedin: "linkedin.com/in/maximilian-j-gruber/"
+
+experience:
+  - role: "Développeur Full Stack"
+    company: "Spotl"
+    dates: "06/2024 - Présent"
+    location: "Paris, France (Télétravail)"
+    description: "Entreprise proposant des services de sous-titrage et de traduction vidéo par IA, avec post-édition professionnelle pour une création de contenu multilingue rapide."
+    type: "achievements"
+    items:
+      - "Contribution à l'intégration de fonctionnalités d'IA générative : paraphrasage de sous-titres, transcription 'speech-to-text' et traduction multilingue via des API tierces, avec une expérience concrète de l'intégration de services basés sur des LLM en production."
+      - "Pilotage de la migration du frontend legacy (jQuery et JS vanilla) vers React afin d'améliorer la maintenabilité du code."
+      - "Identification et mise en œuvre d'optimisations des coûts Google Cloud, réduisant les dépenses d'infrastructure tout en maintenant les niveaux de performance."
+      - "Conduite d'un chantier de refactoring à grande échelle visant à unifier les standards de code et à simplifier la logique legacy, en orientant progressivement la base de code vers les principes du Domain-Driven Design pour en améliorer la maintenabilité à long terme."
+
+  - role: "Développeur Full Stack"
+    company: "Réseau des Solutions de Développement Durable des Nations Unies (SDSN)"
+    dates: "08/2021 - 06/2024"
+    location: "Paris, France"
+    description: "Organisation mobilisée pour développer des solutions concrètes en faveur des Objectifs de Développement Durable et de l'Accord de Paris."
+    type: "achievements"
+    items:
+      - "Conception et maintenance d'applications web performantes et de plateformes interactives encore utilisées par l'organisation aujourd'hui, couvrant des sites web et des visualisations de données sur plusieurs projets."
+      - "Collaboration avec des data scientists et des partenaires externes pour développer et maintenir des tableaux de bord et des visualisations de données, en garantissant leur accessibilité en temps réel et la mise à jour automatisée des données."
+      - "Résolution de problèmes majeurs de performance liés à la croissance des jeux de données et à la lenteur des requêtes et du rendu, assurant une expérience utilisateur fluide à grande échelle."
+      - "Formation et accompagnement de développeurs juniors vers une pleine autonomie (onboarding, revues de code, programmation en binôme, mentorat)."
+
+technical_skills:
+  - category: "Langages & Moteurs"
+    items: "JS(ES2025) | Python | Node | Bash | HCL"
+  - category: "Frameworks"
+    items: "Django | Next.js | React"
+  - category: "Frameworks de test"
+    items: "Jest | PyTest | Cypress | Playwright"
+  - category: "Bases de données"
+    items: "PostgresSQL | Mongo DB | Redis"
+  - category: "DevOps & Cloud"
+    items: "Kubernetes | Docker | Pipelines CI/CD | Terraform | Linux | Grafana | Prometheus | Ansible | RabbitMQ | AWS | Google Cloud"
+  - category: "IA, API & Outils"
+    items: "Claude | Gemini | GitHub | Figma | Netlify | Command Line Interface"
+
+soft_skills:
+  - "Résolution de problèmes"
+  - "Débrouillardise"
+  - "Éthique de travail"
+  - "Leadership"
+  - "Organisation"
+  - "Détermination"
+  - "Pragmatisme"
+
+education:
+  - title: "Ironhack - Bootcamp DevOps & Cloud Computing (400+ heures)"
+    description: "Formation intensive aux bonnes pratiques d'architecture pour la conception de systèmes distribués résilients et à haute disponibilité sur AWS et Azure."
+    dates: "09/2025 - 03/2026"
+  - title: "Ironhack - Bootcamp Développement Web Full Stack (400+ heures)"
+    description: "Programme intensif enseignant la conception d'applications web complètes avec la stack MERN."
+    dates: "08/2020 - 10/2020"
+
+languages:
+  - name: "Anglais"
+    level: 5
+  - name: "Français"
+    level: 5
+  - name: "Allemand"
+    level: 5
