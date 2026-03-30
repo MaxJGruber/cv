@@ -1,20 +1,20 @@
 blocks:
   - header
   - experience
+  - education
   - technical_skills
   - soft_skills
-  - education
   - languages
 
 layout:
   columns: 2
   left:
     - experience
+    - languages
   right:
+    - education
     - technical_skills
     - soft_skills
-    - education
-    - languages
 
 labels:
   workExperience: "WORK EXPERIENCE"
@@ -27,14 +27,14 @@ labels:
 
 personal:
   name: "Maximilian Gruber"
-  title: "Software Engineer"
+  title: "Full Stack & DevOps Engineer"
   photo: "cv/profile-pic.jpg"
-  summary: "Dynamic Full Stack developer with 4+ years under my belt and skilled in DevOps and Cloud computing. Looking for an ambitious home for my expertise and a team that dreams big."
+  summary: "Dynamic Full Stack developer with 4+ years under my belt and skilled in DevOps and Cloud computing. I thrive in environments that value pragmatism, craftsmanship, and thinking long-term. Looking for a team that dreams big and builds well."
   contact:
     email: "maxjgruber@gmail.com"
     phone: "+33 (0) 6 98 20 29 59"
     location: "France"
-    linkedin: "https://www.linkedin.com/in/maximilian-j-gruber/"
+    linkedin: "linkedin.com/in/maximilian-j-gruber/"
 
 experience:
   - role: "Full Stack Developer"
@@ -44,9 +44,10 @@ experience:
     description: "Company providing AI-powered video subtitling and translation services with professional post-editing for rapid, multilingual content creation."
     type: "achievements"
     items:
-      - "Upgraded/migrated legacy code to modern frameworks using creative refactoring solutions."
-      - "Analysis and implementation of cost-cutting measures on Google Cloud without compromising performance."
-      - "Provided specialized expertise to recommend system enhancements, optimize performance, and enhance overall user experience."
+      - "Contributed to the implementation of generative AI features including subtitle paraphrasing, speech-to-text transcription, and multilingual translation via third-party AI APIs, gaining hands-on experience integrating LLM-based services into production workflows."
+      - "Drove the ongoing initiative to modernize and migrate the legacy jQuery and vanilla JS frontend to React to improve code maintainability."
+      - "Identified and implemented Google Cloud cost optimizations, cutting infrastructure spend while maintaining performance benchmarks."
+      - "Continuously spearheading a large-scale refactoring effort to unify coding standards and simplify convoluted legacy logic, progressively steering the codebase toward Domain-Driven Design principles and improving long-term maintainability."
 
   - role: "Full Stack Developer"
     company: "United Nation's Sustainable Development Solutions Network"
@@ -55,8 +56,9 @@ experience:
     description: "Organization mobilized to develop practical solutions for achieving the Sustainable Development Goals and Paris Agreement."
     type: "achievements"
     items:
-      - "Developed and maintained high-performing applications and interactive platforms for various one-off projects, including websites and data visualizations."
-      - "Collaborated with Data Scientists to create and update data visualizations and dashboards from datasets, ensuring seamless online accessibility and automatic updates."
+      - "Built and maintained high-performance web applications and interactive platforms still actively used by the organization today, spanning websites and data visualizations across multiple projects."
+      - "Collaborated with Data Scientists and external partners to develop and maintain data dashboards and visualizations, ensuring live accessibility and automated data updates."
+      - "Resolved major performance bottlenecks caused by large dataset growth and slow query/rendering times, ensuring smooth user experience at scale."
       - "Trained and led junior/entry-level peers towards complete autonomy (on-boarding, code reviews, pair-programming, mentorship)."
 
 technical_skills:
@@ -88,7 +90,7 @@ education:
     dates: "09/2025 - 03/2026"
   - title: "Ironhack - Full Stack Web Development Bootcamp (400+ hours)"
     description: "Intensive program teaching students to build complete web applications using the MERN stack."
-    dates: "09/2025 - 03/2026"
+    dates: "08/2020 - 10/2020"
 
 languages:
   - name: "English"

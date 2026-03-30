@@ -2,11 +2,11 @@ layout:
   columns: 2
   left:
     - experience
-    - education
+    - languages
   right:
+    - education
     - technical_skills
     - soft_skills
-    - languages
   decorations:
     - svg: circles-cluster.svg
       position: top-right
