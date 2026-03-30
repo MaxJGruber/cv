@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@mantine/core": "^8.3.18",
+    "@mantine/hooks": "^8.3.18",
     "@tailwindcss/vite": "^4.2.2",
     "cv-pdf-gen": "^0.2.0",
     "react": "^19.2.4",

@@ -1,7 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { MantineProvider } from "@mantine/core";
 import { discoverContent, discoverThemes, discoverPlugins, discoverCustoms, discoverCustomCss, VariantTabs } from "cv-pdf-gen";
-import "./tailwind.css"; 
+import "@mantine/core/styles.css";
+import "./tailwind.css";
 import "cv-pdf-gen/styles";
 
 const contentModules = import.meta.glob("/content/*.yaml", {
@@ -54,6 +56,8 @@ const customCss = discoverCustomCss(customCssModules);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <VariantTabs contentMap={contentMap} themes={themes} plugins={plugins} customs={customs} customCss={customCss} />
+    <MantineProvider>
+      <VariantTabs contentMap={contentMap} themes={themes} plugins={plugins} customs={customs} customCss={customCss} />
+    </MantineProvider>
   </StrictMode>
 );
