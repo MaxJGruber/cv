@@ -15,7 +15,7 @@
   --cv-font-size-small: 8pt;
   --cv-page-width: 210mm;
   --cv-page-height: 297mm;
-  --cv-page-padding: 15mm;
+  --cv-page-padding: 11mm;
   --cv-column-gap: 8mm;
   --cv-left-column: 60%;
   --cv-right-column: 40%;
@@ -33,7 +33,7 @@
   padding-left: 0;
 }
 
-.job-timeline-dot {
+.job-timeline-dot, .education-dot {
   display: none;
 }
 
@@ -131,4 +131,8 @@
   position: static;
   line-height: 1.9;
   margin-top: 0;
+}
+
+.education-item {
+  padding-left:unset;
 }
