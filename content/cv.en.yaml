@@ -63,15 +63,15 @@ experience:
 
 technical_skills:
   - category: "Programming Languages & Engines"
-    items: "JS(ES2025) | Python | Node | Bash | HCL"
+    items: "JavaScript(ES2025) | Python | Node | Bash | HCL"
   - category: "Frameworks"
-    items: "Django | Next.js | React"
+    items: "Django | Next.js | React | TypeScript"
   - category: "Test Frameworks"
     items: "Jest | PyTest | Cypress | Playwright"
   - category: "Databases"
     items: "PostgresSQL | Mongo DB | Redis"
   - category: "DevOps & Cloud"
-    items: "Kubernetes | Docker | CI/CD pipelines | Terraform | Linux | Grafana | Prometheus | Ansible | RabbitMQ | AWS | Google Cloud"
+    items: "Kubernetes | Docker | CI/CD pipelines | Terraform | Linux | Grafana | Prometheus | Loki | Ansible | RabbitMQ | AWS | Google Cloud | Azure"
   - category: "AI API & Tools"
     items: "Claude | Gemini | GitHub | Figma | Netlify | Command Line Interface"
 
