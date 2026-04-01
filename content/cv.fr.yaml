@@ -29,7 +29,7 @@ personal:
   name: "Maximilian Gruber"
   title: "Ingénieur Full Stack & DevOps"
   photo: "cv/profile-pic.jpg"
-  summary: "Développeur Full Stack dynamique avec plus de 4 ans d'expérience, spécialisé en DevOps et cloud computing. Je m'épanouis dans des environnements qui valorisent le pragmatisme, l'exigence technique et la vision à long terme. À la recherche d'une équipe qui voit grand et construit avec soin."
+  summary: "Développeur Full Stack dynamique avec plus de 4 ans d'expérience, spécialisé en DevOps et cloud computing, et fièrement propulsé par l'intelligence organique*. Je m'épanouis dans des environnements qui valorisent le pragmatisme, l'exigence technique et la vision à long terme. À la recherche d'une équipe qui voit grand et construit avec soin."
   contact:
     email: "maxjgruber@gmail.com"
     phone: "+33 (0) 6 98 20 29 59"
@@ -91,6 +91,8 @@ education:
   - title: "Ironhack - Bootcamp Développement Web Full Stack (400+ heures)"
     description: "Programme intensif enseignant la conception d'applications web complètes avec la stack MERN."
     dates: "08/2020 - 10/2020"
+
+footnote: "* aucune clé API requise"
 
 languages:
   - name: "Anglais"
